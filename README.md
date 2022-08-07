@@ -84,3 +84,7 @@ _start server by : "npm run server"_
 After "npm run build"
 npm install -g serve
 serve -s build
+
+nelify when deploying via github will throw build errors:
+At the part where nelify runs our build "npm run build" just few parameters "CI= npm run build"
+Reason: React throws some errors/warnings. So we are trying to ignore that.
