@@ -69,16 +69,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
 Libraries being used:
-    "bootstrap": "^5.1.3",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.4.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
-    "sass": "^1.53.0",
-    "web-vitals": "^2.1.4"
+"bootstrap": "^5.1.3",
+"react": "^18.2.0",
+"react-bootstrap": "^2.4.0",
+"react-dom": "^18.2.0",
+"react-router-dom": "^6.3.0",
+"react-scripts": "5.0.1",
+"sass": "^1.53.0",
+"web-vitals": "^2.1.4"
 
+_start server by : "npm run server"_
 
-*start server by : "npm run server"*
+After "npm run build"
+npm install -g serve
+serve -s build
