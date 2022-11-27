@@ -95,7 +95,7 @@ const NotePage = () => {
           </div>
         )}
       </div>
-      <Card className="m-2 p-2" bg="dark">
+      <Card className="m-2 p-1" bg="dark">
         <Form.Control
           as="textarea"
           onChange={(e) => {
